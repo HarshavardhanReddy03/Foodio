@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body
+{
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navbar Section CSS Code  */
+/* Start ----> */
+#nav-app-title
+{
+    color: red;
+    font-size: 2rem;
+}
+
+#nav-title-span{
+    color: black;
+}
+
+.navbar-outer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav-ul-list
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav-ul-list li{
+    margin-left: 20px;
+    list-style: none;
+}
+
+#nav-ul-list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.nav-cart-log-btn button{
+    margin-left: 30px;
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(235, 70, 5, 0.841);
+    cursor: pointer;
+}
+
+.nav-cart-log-btn button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.nav-cart-log-btn 
+{
+    display: flex;
+}
+
+.nav-cart-log-btn i
+{
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* END ---->  */
+
