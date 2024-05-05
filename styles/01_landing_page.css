@@ -72,3 +72,97 @@ body
 
 /* END ---->  */
 
+/* Section-2 */
+.main-title-heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title-heading h1
+{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+/* Section-3 */
+.category-selection
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.category-selection a{
+    padding: 10px 20px;
+    background: rgb(173, 171, 171);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/* section-4 */
+.menu-item-display
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 18rem;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    margin-top: 0;
+  }
+  
+  .card-text {
+    margin-bottom: 20px;
+  }
+  
+  .price-to-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+footer{
+    background-color: antiquewhite;
+}
+
+/* Footer  */
